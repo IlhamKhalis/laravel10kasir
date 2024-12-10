@@ -25,7 +25,7 @@ class BuatProdukTable extends Migration
             $table->integer('stok');
             $table->integer('stok_minimal');
             $table->unsignedBigInteger('id_kategori');
-            $table->string('satuan',30);
+            $table->string('id_satuan',30);
             //$table->foreign('id_kategori')->references('id_kategori')->on('kategori')->onDelete('cascade');
             $table->timestamps();
         });
